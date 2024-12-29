@@ -5,7 +5,7 @@
 @import url(../layout/layout.css);
 
 /* All page specficic styles */
-@import url(assets/styles/pages/blog-homepage.css);
+@import url(/assets/styles/pages/blog-homepage.css);
 @import url(assets/styles/pages/blog-post.css);
 
 /* Components used in the pages */
