@@ -1,8 +1,8 @@
 /* Typography */
-@import url(assets/styles/base/typography.css);
+@import url(typography.css);
 
 /* Main layout of the page*/
-@import url(assets/styles/layout/layout.css);
+@import url(../layout/layout.css);
 
 /* All page specficic styles */
 @import url(assets/styles/pages/blog-homepage.css);
