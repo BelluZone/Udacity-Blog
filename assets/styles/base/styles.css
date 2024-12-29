@@ -1,16 +1,16 @@
 /* Typography */
-@import url(/assets/styles/base/typography.css);
+@import url(assets/styles/base/typography.css);
 
 /* Main layout of the page*/
-@import url(/assets/styles/layout/layout.css);
+@import url(assets/styles/layout/layout.css);
 
 /* All page specficic styles */
-@import url(/assets/styles/pages/blog-homepage.css);
-@import url(/assets/styles/pages/blog-post.css);
+@import url(assets/styles/pages/blog-homepage.css);
+@import url(assets/styles/pages/blog-post.css);
 
 /* Components used in the pages */
-@import url(/assets/styles/components/blog-post-card.css);
-@import url(/assets/styles/components/buttons.css);
-@import url(/assets/styles/components/image-caption.css);
-@import url(/assets/styles/components/images.css);
-@import url(/assets/styles/components/socials.css);
+@import url(assets/styles/components/blog-post-card.css);
+@import url(assets/styles/components/buttons.css);
+@import url(assets/styles/components/image-caption.css);
+@import url(assets/styles/components/images.css);
+@import url(assets/styles/components/socials.css);
