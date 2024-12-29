@@ -1,0 +1,34 @@
+/* Setting layout of the navigation bar */
+.navbar {
+    grid-area: navbar;
+    display: flex;
+    flex-direction: column;
+    background-color: #3a3636;
+    color: #e0e0e0;
+    padding: 0 5% 0;
+    align-self: center;
+    height: auto;
+}
+
+/* Container class for navigation items */
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    align-items: last baseline;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* a single navitem */
+.nav-item {
+    color: #e0e0e0;
+    line-height: 1.6em;
+    font-size: 1.2em;
+    letter-spacing: 0.025em;
+}
+
+/* Underline text at Navigation item hover */
+.nav-item:hover {
+    text-decoration: underline;
+}
+

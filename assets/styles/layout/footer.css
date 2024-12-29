@@ -1,0 +1,18 @@
+/* Setting the properties of the footer */
+.bottom{
+    grid-area: footer;
+    background-color: #3a3636;
+    min-height: 100px;
+    max-height: auto;
+    padding: 50px;
+}
+
+/* Changing the colour of the email-link to match the background */
+.email {
+    color:#e0e0e0
+}
+
+/* Underline hover effect for the email link */
+.email:hover {
+    text-decoration: underline;
+}

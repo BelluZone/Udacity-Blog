@@ -1,0 +1,10 @@
+/* Setting the container-layout for the post-cards on landing page*/
+.cards-container {
+    grid-area: content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 5% 50px;
+    justify-content: center;
+    gap: 50px;
+}

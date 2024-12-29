@@ -1,0 +1,66 @@
+/*
+- Social sharing
+    - Twitter
+    - Facebook
+    - LinkedIn
+*/
+
+/* Spacing the columns on the table of author information*/
+td {
+    margin: 0;
+    padding-inline: 0 25px;
+    max-width: 800px;
+}
+
+/* Setting up author information container */
+.post-author-container {
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 25px 0;
+}
+
+.blog-post {
+    grid-area: content;
+    max-width: 1200px;
+    padding: 0 25px 50px;
+}
+
+/* Setting width of author header to make sure it is single item on the row */
+.author-header {
+    width: 100%;
+}
+
+.blog-footer {
+    font-style: italic;
+}
+
+.avatar {
+    max-height: 150px;
+    overflow: auto;
+}
+
+/* Changing Layout and properties when window size > 1200px */
+@media (min-width:1200px) {
+    .post-author-container {
+        grid-area: sidebar;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0 15px 0;
+    }
+
+    .blog-post {
+        padding: 0 1fr 0;
+        width: 800px;
+        justify-self: center;
+    }
+
+    .avatar {
+        height: 100%;
+        max-width: 400px;
+        max-height: none;
+        overflow: auto;
+    }
+}

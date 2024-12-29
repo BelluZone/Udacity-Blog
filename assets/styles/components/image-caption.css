@@ -1,0 +1,5 @@
+/* Changing the figcaption style to have it visually seperated from <p> */
+figure {
+    font-size: small;
+    font-style: italic;
+}

@@ -1,0 +1,127 @@
+<!-- Include Links a and quotes
+ at least 3 colors are used -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learning with Udacity">
+    <link rel="stylesheet" href="/assets/styles/base/styles.css">
+    <title>Blog Post - Learning CSS</title>
+</head>
+
+<!-- Adding the body with the container-post-class which contains the blog post layout from layout/layout.css -->
+
+<body class="container-post">
+    <!-- header of body represents the navigation bar, layout in layout/navbar.css -->
+    <header class="navbar">
+        <h1>BLOG HOMEPAGE</h1>
+        <div class="nav-items">
+            <a class="nav-item" href="..\Index.html">Home</a>
+            <a class="nav-item" href="Index.html">About me</a>
+            <a class="nav-item" href="mailto:bellu.christian@gmail.com">Subscribe</a>
+        </div>
+    </header>
+
+    <!-- Author Info container on the sidebar-grid. Layout in pages/blog-post.css -->
+    <div class="post-author-container">
+        <h2 class="author-header">Author Info</h2>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>Christian Bellu</td>
+            </tr>
+            <tr>
+                <td>Title</td>
+                <td>Teamlead Product Management</td>
+            </tr>
+            <tr>
+                <td>Current Company</td>
+                <td>Pyramid Computer GmbH</td>
+            </tr>
+        </table>
+        <p>Christian Bellu is the Team Lead of Product Management at Pyramid Computer GmbH, where he drives product
+            strategy and leads cross-functional teams. With a strong background in business and technology, he focuses
+            on delivering innovative solutions that meet customer needs.</p>
+        <figure>
+            <img class="avatar" src="..\assets\images\Avatar.jpg" alt="">
+            <figcaption>Avatar picture</figcaption>
+        </figure>
+    </div>
+
+    <!-- Starting the article. Layout of class in pages/blog-post.css  -->
+    <article class="blog-post">
+        <h2 id="post-h2">Learning CSS</h2>
+        <p>
+            CSS (Cascading Style Sheets) is a core technology in web development, providing the styles that make a
+            website visually appealing and user-friendly. If you’re eager to learn CSS and enhance your front-end web
+            development skills, Udacity's Front-End Web Developer course is a great place to start. Here's a look at
+            what makes this course an excellent choice for CSS learners.
+        </p>
+        <hr width="100%">
+        <section>
+            <h3>Why learn CSS?</h3>
+            <p>
+                The Udacity Front-End Web Developer course provides a thorough introduction to CSS, starting with the
+                basics. You'll learn about selectors, properties, values, and how to style elements to create visually
+                striking layouts. The course also covers the box model, positioning, and the differences between grid,
+                and flexbox layouts. These foundational concepts are essential for every aspiring front-end
+                developer and form the building blocks for more advanced styling techniques.
+            </p>
+        </section>
+        <hr width="100%">
+        <section>
+            <h3>The Udacity Front-End Web Developer Course</h3>
+            <p>
+                As you advance in the course, you’ll dive deeper into creating responsive designs that work on any
+                device. CSS media queries and techniques like Flexbox are key components taught in this section.
+                Flexbox, in particular, is a powerful layout tool that simplifies the design of complex layouts without
+                relying on floats or positioning. The course equips you with the skills to build flexible and dynamic
+                web designs that adapt seamlessly to different screen sizes.
+            </p>
+        </section>
+        <hr width="100%">
+        <section>
+            <h3>Hands-On Projects and Real-World Application</h3>
+            <p>
+                One of the standout features of the Udacity course is its emphasis on hands-on learning. As you
+                progress, you'll apply what you've learned to build real-world projects like a personal portfolio or a
+                multi-page website. This approach helps solidify your understanding of CSS by encouraging you to
+                experiment with different styles and layouts, ensuring that you’re not only learning theory but also
+                practicing and refining your skills.
+            </p>
+        </section>
+        <!-- Blog footer pages/blog-post.css -->
+        <footer class="blog-footer">
+            <p>Written by Christian Bellu</p>
+        </footer>
+        <!-- Action button to continue reading. Leads to next Blog post -->
+        <a href="blog-post-javascript.html#post-h2">
+            <div class="btn-action">Continue reading</div>
+        </a>
+        <!-- Social sharing -->
+        <div class="social-container">
+            <!-- Link from X-embed-tools, Logo does not seem to work though -->
+            <a href="https://twitter.com/intent/tweet?button_hashtag=sharing&ref_src=twsrc%5Etfw"
+                class="twitter-hashtag-button" data-show-count="false">Tweet #sharing
+            </a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://linkedin.com">
+                <img class="social-img" src="..\assets\images\LI-In-Bug.png" alt="Hyperlink LinkedIn Logo">
+            </a>
+            <a class="social-img-link" href="https://facebook.com">
+                <img class="social-img" src="..\assets\images\Facebook_Logo_Primary.png" alt="Hyperlink Facebook Logo">
+            </a>
+        </div>
+    </article>
+
+    <footer class="bottom">
+        <address>
+            <a class="email" href="mailto:bellu.christian@gmail.com">bellu.christian@gmail.com</a>
+        </address>
+    </footer>
+</body>
+
+</html>

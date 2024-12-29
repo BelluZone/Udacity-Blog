@@ -1,0 +1,61 @@
+/* Including a font from google-fonts */
+@font-face {
+    font-family: "Fred";
+    src: url(/assets/fonts/Fredoka-VariableFont_wdth\,wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Setting font family for the complete page/body */
+body {
+    font-family: "Fred";
+}
+
+h1 {
+    align-self: center;
+    font-size: 3em;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #e0e0e0;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: bolder;
+    letter-spacing: 0.025em;
+    text-shadow: 1px 1px 1px #3a3636;
+    word-spacing: 0.15em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 0.025em;
+    word-spacing: 0.025em;
+}
+
+h4 {
+    font-style: italic;
+}
+
+h5 {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.6em;
+    font-size: 1.2em;
+    letter-spacing: 0.025em;
+}
+
+ol {
+    line-height: 1.6em;
+    font-size: 1.1em;
+    letter-spacing: 0.025em;
+}

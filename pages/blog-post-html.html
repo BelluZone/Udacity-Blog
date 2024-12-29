@@ -1,0 +1,164 @@
+<!-- Include Links a and quotes
+ at least 3 colors are used -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learning with Udacity">
+    <link rel="stylesheet" href="/assets/styles/base/styles.css">
+    <title>Blog Post - Learning HTML</title>
+</head>
+
+<!-- Adding the body with the container-post-class which contains the blog post layout from layout/layout.css -->
+
+<body class="container-post">
+    <!-- header of body represents the navigation bar, layout in layout/navbar.css -->
+    <header class="navbar">
+        <h1>BLOG HOMEPAGE</h1>
+        <div class="nav-items">
+            <a class="nav-item" href="..\Index.html">Home</a>
+            <a class="nav-item" href="Index.html">About me</a>
+            <a class="nav-item" href="mailto:bellu.christian@gmail.com">Subscribe</a>
+        </div>
+    </header>
+
+    <!-- Author Info container on the sidebar-grid. Layout in pages/blog-post.css -->
+    <div class="post-author-container">
+        <h2 class="author-header">Author Info</h2>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>Christian Bellu</td>
+            </tr>
+            <tr>
+                <td>Title</td>
+                <td>Teamlead Product Management</td>
+            </tr>
+            <tr>
+                <td>Current Company</td>
+                <td>Pyramid Computer GmbH</td>
+            </tr>
+        </table>
+        <p>Christian Bellu is the Team Lead of Product Management at Pyramid Computer GmbH, where he drives product
+            strategy and leads cross-functional teams. With a strong background in business and technology, he focuses
+            on delivering innovative solutions that meet customer needs.</p>
+        <figure>
+            <img class="avatar" src="..\assets\images\Avatar.jpg" alt="">
+            <figcaption>Avatar picture</figcaption>
+        </figure>
+    </div>
+
+    <!-- Starting the article. Layout of class in pages/blog-post.css  -->
+    <article class="blog-post">
+        <h2 id="post-h2">Learning HTML</h2>
+        <p>
+            As the foundation of web development, HTML (Hypertext Markup Language) is an essential skill for any
+            aspiring
+            developer. If you're looking to start your journey into web development, learning HTML is the first step,
+            I decided to begin my journey with Udacity's Front-End Web Developer course. For me as a beginner, this
+            course provided a comprehensive and structured approach to mastering HTML and other key front-end
+            technologies.
+        </p>
+        <hr width="100%">
+        <section>
+            <h3>Why learn HTML?</h3>
+            <p>
+                HTML is the backbone of every webpage. It defines the structure of web content by using elements such as
+                headings, paragraphs, links, and images. Understanding HTML is crucial for building web pages that are
+                both functional and visually appealing. The language is easy to learn and a great starting point for
+                anyone wanting to become a front-end developer.
+            </p>
+        </section>
+        <hr width="100%">
+        <section>
+            <h3>The Udacity Front-End Web Developer Course</h3>
+            <p>
+                Udacity’s Front-End Web Developer Nanodegree offers a well-rounded curriculum that covers not only HTML
+                but also CSS, JavaScript, and responsive web design. As a part of this course, you'll dive into HTML in
+                the following ways:
+            </p>
+            <ol>
+                <li>
+                    HTML Structure and Syntax: You’ll start by learning the basics of HTML, including tags, attributes,
+                    and elements. Understanding how to properly structure your HTML documents is key to creating
+                    readable, accessible, and well-organized code.
+                </li>
+                <li>
+                    One of the most important lessons in the course is understanding how to use semantic HTML. This
+                    means using the right HTML tags for the right purpose (e.g., using <code>&lt;article&gt;</code> for
+                    standalone content
+                    and <code>&lt;section&gt;</code> for grouping related content). Semantic HTML improves both SEO
+                    (Search Engine
+                    Optimization) and accessibility, ensuring that your site can be properly indexed by search
+                    engines and is usable for all visitors, including those with disabilities.
+                </li>
+                <li>
+                    Forms and Input Elements: Forms are an integral part of any website, from login forms to surveys.
+                    Udacity's course teaches you how to build forms using various input elements such as text fields,
+                    checkboxes, radio buttons, and submit buttons. You’ll learn how to organize and validate user input,
+                    which is essential for creating interactive and user-friendly websites.</li>
+                <li>
+                    Working with Multimedia: HTML isn't just about text. You'll also learn how to embed images, audio,
+                    and video into your pages, making your site more engaging and interactive. Understanding how to
+                    properly use multimedia elements ensures that your website can deliver rich, dynamic content to your
+                    users.
+                </li>
+                <li>
+                    Best Practices and Accessibility: A key focus of Udacity's Front-End Web Developer course is
+                    creating websites that are not only functional but also accessible. You'll learn best practices for
+                    writing clean, maintainable HTML code, and how to ensure your websites are usable for people with
+                    different abilities by adhering to accessibility standards like WCAG (Web Content Accessibility
+                    Guidelines).
+                </li>
+            </ol>
+        </section>
+        <hr width="100%">
+        <section>
+            <h3>Hands-On Learning and Projects</h3>
+            <p>
+                What sets Udacity's course apart from others is its emphasis on hands-on learning. As you go through the
+                lessons, you’ll be tasked with building real-world projects. For example this Website - it is part of
+                the Program which require you to apply your HTML skills in practical, creative ways.
+            </p>
+            <p>
+                By working on these projects, you'll gain experience with HTML and start to understand how it fits into
+                the larger process of front-end development. Each project is reviewed by professional reviewers,
+                providing you with valuable feedback and guidance on how to improve your code and design.
+            </p>
+        </section>
+        <!-- Blog footer pages/blog-post.css -->
+        <footer class="blog-footer">
+            <p>Written by Christian Bellu</p>
+        </footer>
+
+        <!-- Action button to continue reading. Leads to next Blog post -->
+        <a href="blog-post-css.html#post-h2">
+            <div class="btn-action">Continue reading</div>
+        </a>
+        <!-- Social sharing -->
+        <div class="social-container">
+            <!-- Link from X-embed-tools, Logo does not seem to work though -->
+            <a href="https://twitter.com/intent/tweet?button_hashtag=sharing&ref_src=twsrc%5Etfw"
+                class="twitter-hashtag-button" data-show-count="false">Tweet #sharing
+            </a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://linkedin.com">
+                <img class="social-img" src="..\assets\images\LI-In-Bug.png" alt="Hyperlink LinkedIn Logo">
+            </a>
+            <a class="social-img-link" href="https://facebook.com">
+                <img class="social-img" src="..\assets\images\Facebook_Logo_Primary.png" alt="Hyperlink Facebook Logo">
+            </a>
+        </div>
+    </article>
+
+    <footer class="bottom">
+        <address>
+            <a class="email" href="mailto:bellu.christian@gmail.com">bellu.christian@gmail.com</a>
+        </address>
+    </footer>
+</body>
+
+</html>

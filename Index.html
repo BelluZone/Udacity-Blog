@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learning with Udacity">
+    <link rel="stylesheet" href="/assets/styles/base/styles.css">
+    <title>Blog Homepage</title>
+</head>
+
+<!-- Adding the body with the container-homepage-class which contains the main layout from layout/layout.css -->
+
+<body class="container-homepage">
+    <!-- header of body represents the navigation bar, layout in layout/navbar.css -->
+    <header class="navbar">
+        <h1>BLOG HOMEPAGE</h1>
+        <div class="nav-items">
+            <a class="nav-item" href="Index.html">Home</a>
+            <a class="nav-item" href="Index.html">About me</a>
+            <a class="nav-item" href="mailto:bellu.christian@gmail.com">Subscribe</a>
+        </div>
+    </header>
+
+    <!-- Main conent space, here all the blog posts are represented as clickable Cards.
+        Layout from Cards in components/blog-post-card.css -->
+    <!-- Blog post Card one -->
+    <div class="cards-container">
+        <a href="pages\blog-post-html.html">
+            <div class="blog-card">
+                <h2 class="blog-card-title">Learning HTML</h2>
+                <figure>
+                    <img class="blog-card-img" src="assets\images\html-css-banner.jpg"
+                        alt="Blue background picture, written HTML and CSS">
+                    <figcaption>HTML and CSS</figcaption>
+                </figure>
+                <p class="blog-preview">Follow me on my web developer learning path. The first step learning the
+                    basics: HTML. It is the backbone of every Webpage.</p>
+                <div class="btn-action">Read more</div>
+            </div>
+        </a>
+        <!-- Blog post Card two -->
+        <a href="pages\blog-post-css.html">
+            <div class="blog-card">
+                <h2 class="blog-card-title">Learning CSS</h2>
+                <figure>
+                    <img class="blog-card-img" src="assets\images\CSS-code.jpg"
+                        alt="Close up screen showing some random CSS Code">
+                    <figcaption>CSS</figcaption>
+                </figure>
+                <p class="blog-preview">The second step is to understand CSS. How to design the page layouts and
+                    contents.</p>
+                <div class="btn-action">Read more</div>
+            </div>
+        </a>
+        <!-- Blog post Card three -->
+        <a href="pages\blog-post-javascript.html">
+            <div class="blog-card">
+                <h2 class="blog-card-title">Learning JavaScript</h2>
+                <figure>
+                    <img class="blog-card-img" src="assets\images\JavaScript-Laptop.jpg"
+                        alt="Laptop on a table having a code editor open">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+                <p class="blog-preview">After I get a good understanding of HTML and CSS I'll continue my journey with
+                    JavaScript to make the page dynamic.</p>
+                <div class="btn-action">Read more</div>
+            </div>
+        </a>
+    </div>
+
+    <!-- footer of body represents the bottom closing of the page, layout in layout/footer.css -->
+    <footer class="bottom">
+        <address>
+            <a class="email" href="mailto:bellu.christian@gmail.com">bellu.christian@gmail.com</a>
+        </address>
+    </footer>
+</body>
+
+</html>

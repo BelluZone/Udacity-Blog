@@ -1,0 +1,52 @@
+/* Importing the navigation and footer layout */
+@import url(/assets/styles/layout/navbar.css);
+@import url(/assets/styles/layout/footer.css);
+
+/* Setting the layout for the landing or home page */
+.container-homepage {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, content) min-content auto;
+    grid-template-areas:
+        "navbar"
+        "content"
+        "footer"
+    ;
+    margin: 0;
+    height: 100vh;
+    background-color: #e0e0e0;
+}
+
+/* Setting the layout for the post-pages
+I tried to have one grid-layout for both, but i failed. I could't stop sidebar to show on Homepage, even thogh i had no content in it.
+What is best practice? */
+.container-post {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, content) min-content auto auto;
+    grid-template-areas:
+        "navbar"
+        "sidebar"
+        "content"
+        "footer"
+    ;
+    margin: 0;
+    height: 100vh;
+    background-color: #e0e0e0;
+}
+
+/* Common sizes; 768 / 992 / 1200 / 1400 */
+/* Changing layout window width > 1200px*/
+@media (min-width:1200px) {
+    .container-post {
+        grid-template-columns: 1fr minmax(0, 30%);
+        grid-template-rows: minmax(100px, content) auto auto;
+        grid-template-areas:
+            "navbar navbar"
+            "content sidebar"
+            "footer footer"
+        ;
+    }
+}

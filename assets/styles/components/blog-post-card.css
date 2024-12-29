@@ -1,0 +1,41 @@
+/* Setting the grid layout for the Card */
+/* From my understanding an element does not need to specificly add to a grid-area. It gets auto-assigned when including it into its parent.
+That's why i decided to not include a dedicated part for the grid-area "button" */
+.blog-card {
+    display: grid;
+    grid-template-rows: max-content 150px auto 100px;
+    grid-template-areas:
+        "blog-header"
+        "blog-image"
+        "blog-preview"
+        "button"
+    ;
+    gap: 5px;
+    height: 550px;
+    width: 350px;
+    box-shadow: 0px 0px 15px 4px gray;
+    color: #3a3636;
+}
+
+.blog-card-title {
+    grid-area: "blog-header";
+    font-size: 2em;
+    padding: 0 15px 0;
+}
+
+.blog-card-img {
+    height: 100%;
+    grid-area: "blog-image";
+    overflow: auto;
+}
+
+.blog-preview {
+    grid-area: "blog-preview";
+    overflow: hidden;
+    padding: 0 15px 0;
+}
+
+/* Changing shadow on hover for appealing UI effect (Hopefully :) ) */
+.blog-card:hover {
+    box-shadow: 0px 0px 20px 6px darkorange;
+}

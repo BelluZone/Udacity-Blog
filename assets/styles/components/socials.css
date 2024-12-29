@@ -1,0 +1,16 @@
+/* Setting container layout for social elements*/
+.social-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: last baseline;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+/* Shrinking the pictures to fit in 50px height */
+.social-img {
+    width: auto;
+    height: 50px;
+}

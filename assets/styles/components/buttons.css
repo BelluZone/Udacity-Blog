@@ -1,0 +1,44 @@
+/* Including Buttons. Actually I only used the action button "btn-action" */
+.btn-action {
+    grid-area: button;
+    background-color: #b74c2a;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 25px;
+    height: 50px;
+    width: fit-content;
+    text-align: center;
+    align-content: center;
+    padding: 0 50px;
+    margin: 25px 0 25px;
+    box-shadow: 3px 3px 3px gray;
+    justify-self: center;
+    align-self: center;
+}
+
+/* Hover effect for action button */
+.btn-action:hover {
+    background-color: #d84f13;
+}
+
+.btn-regular {
+    background-color: #3a3636;
+    color: #e0e0e0;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 25px;
+    height: 50px;
+    width: fit-content;
+    text-align: center;
+    align-content: center;
+    padding: 0 50px;
+    margin: 25px 0 25px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.btn-regular:hover {
+    background-color: #e0e0e0;
+    color: #3a3636;
+    box-shadow: 3px 3px 3px gray;
+}
